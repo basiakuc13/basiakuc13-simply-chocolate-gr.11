@@ -15,6 +15,9 @@
     letter-spacing: -0.6px;
     text-transform: uppercase;
   }
+  .accent {
+    color: #111;
+  }
   .top-sellers-list {
     display: flex;
     gap: 32px;
@@ -25,8 +28,10 @@
   }
   .top-sellers-image-chestnut {
     border-radius: 15px;
-    background-image: url(..images/Top-sellers/Chestnut-phone.jpg),
-      lightgray 50% / cover no-repeat;
+    background-image: url("../images/Top-sellers/Chestnut-phone.jpg"), lightgray;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .top-sellers-paragraph {
     color: #111;
