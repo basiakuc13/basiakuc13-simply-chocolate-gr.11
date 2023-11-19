@@ -1,0 +1,40 @@
+/*Mobile*/
+
+@media screen and (min-width: 375x) and (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+  .top-sellers-header {
+    color: #fd9222;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+  }
+  .top-sellers-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+  }
+  .top-sellers-image-chestnut {
+    border-radius: 15px;
+    background-image: url(..images/Top-sellers/Chestnut-phone.jpg),
+      lightgray 50% / cover no-repeat;
+  }
+  .top-sellers-paragraph {
+    color: #111;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+  }
+}
