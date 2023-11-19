@@ -4,6 +4,15 @@
   .container {
     max-width: 767px;
   }
+  .top-sellers-container {
+    display: flex;
+    width: 335px;
+    height: 1187px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+  }
   .top-sellers-header {
     color: #fd9222;
     text-align: center;
@@ -14,6 +23,7 @@
     line-height: 24px; /* 120% */
     letter-spacing: -0.6px;
     text-transform: uppercase;
+    padding-bottom: 32px;
   }
   .accent {
     color: #111;
@@ -28,10 +38,23 @@
   }
   .top-sellers-image-chestnut {
     border-radius: 15px;
-    background-image: url("../images/Top-sellers/Chestnut-phone.jpg"), lightgray;
+    background-color: lightgray;
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 20px;
+    height: 574px;
+    padding-bottom: 32px;
+  }
+  .top-sellers-image-mint {
+    border-radius: 15px;
+    background-color: lightgray;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    height: 574px;
+    padding-bottom: 20px;
   }
   .top-sellers-paragraph {
     color: #111;
@@ -41,5 +64,24 @@
     font-weight: 400;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
+  }
+  .top-sellers-button {
+    display: flex;
+    width: 120px;
+    height: 41px;
+    padding: 12px 28px;
+    align-items: flex-start;
+    gap: 14px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #fd9222;
+
+    /*buton text*/
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 }
