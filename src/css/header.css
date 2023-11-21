@@ -1,0 +1,275 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MOBILE >>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media screen and (min-width: 375px) and (max-width:767px) {
+
+    /*<<<<<<<<<<<<<<<<<<<<<header>>>>>>>>>>>>>>>>>>>>*/
+    .header {
+        background-color: var(--white);
+        padding: 20px 0;
+        width: 100%;
+        height: 68px;
+    }
+
+    .header-heading {
+        display: none;
+    }
+
+    /*header-logo*/
+    .header-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 28px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+
+    .header-logo-list {
+        list-style: none;
+        text-transform: uppercase;
+        height: 21px;
+        width: 171px;
+        padding: 0;
+        display: inline-flex;
+        gap: 4px;
+    }
+
+    .header-logo-svg {
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+    }
+
+    .header-media-svg {
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+        stroke: var(--white);
+    }
+
+    .header-simply {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 18px;
+        /*128.571%*/
+        letter-spacing: -0.42px;
+        text-decoration: none;
+    }
+
+    .header-chocolate {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.42px;
+    }
+
+    /*header-navigation*/
+    .header-nav {
+        display: none;
+    }
+
+    /*header-social-media*/
+    .header-media {
+        display: none;
+    }
+
+    /*hamburger*/
+    .header-hamburger-button {
+        background-color: transparent;
+        border: none;
+        stroke: var(--black);
+    }
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< TABLET >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media screen and (min-width: 768px) and (max-width:1199px) {
+    .header {
+        background-color: var(--white);
+        padding: 24px 0;
+        width: 100%;
+        height: 80px;
+    }
+
+    .header-heading {
+        display: none;
+    }
+
+    /*header-logo*/
+    .header-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 32px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+
+    .header-logo-list {
+        list-style: none;
+        text-transform: uppercase;
+        height: 21px;
+        width: 171px;
+        padding: 0;
+        display: inline-flex;
+        gap: 4px;
+    }
+
+    .header-logo-svg {
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+    }
+
+    .header-media-svg {
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+        stroke: var(--white);
+    }
+
+    .header-simply {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 18px;
+        /*128.571%*/
+        letter-spacing: -0.42px;
+        text-decoration: none;
+    }
+
+    .header-chocolate {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.42px;
+    }
+
+    /*header-navigation*/
+    .header-nav {
+        display: none;
+    }
+
+    /*header-social-media*/
+    .header-media {
+        display: none;
+    }
+
+    /*hamburger*/
+    .header-hamburger-button {
+        background-color: transparent;
+        border: none;
+        stroke: var(--black);
+    }
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DESKTOP >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media screen and (min-width: 1200px) {
+
+    /*header-navigation*/
+    .header {
+        background-color: var(--white);
+        padding: 24px 0;
+        width: 100%;
+        height: 80px;
+    }
+
+    .header-heading {
+        display: none;
+    }
+
+    /*header-logo*/
+    .header-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 32px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+
+    .header-logo-list {
+        list-style: none;
+        text-transform: uppercase;
+        height: 21px;
+        width: 213px;
+        padding: 0;
+        display: inline-flex;
+        gap: 4px;
+    }
+
+    .header-logo-svg {
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+    }
+
+    .header-media-svg {
+        width: 24px;
+        height: 24px;
+        fill: transparent;
+        stroke: var(--black);
+    }
+
+    .header-simply {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 20px;
+        /*128.571%*/
+        letter-spacing: -0.54px;
+        text-decoration: none;
+    }
+
+    .header-chocolate {
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.54px;
+    }
+
+    /*header-navigation*/
+    .header-nav {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 24px;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: var(--black);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: -0.28px;
+    }
+
+    /*header-social-media*/
+    .header-media {
+        display: flex;
+        list-style: none;
+        gap: 18px;
+    }
+
+    /*hamburger*/
+    .header-icon-box {
+        display: none;
+    }
+}
