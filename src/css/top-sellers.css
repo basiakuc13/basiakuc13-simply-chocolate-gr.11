@@ -1,20 +1,21 @@
 /*============================ MOBILE👇=============================== */
 /*Top Sellers*/
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .container {
     padding: 0 20px;
     margin: 0 auto;
   }
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+
   .top-sellers-container {
     display: flex;
     width: 335px;
@@ -45,6 +46,8 @@
     list-style: none;
     flex-direction: column;
     align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .top-sellers-card-chestnut {
     border-radius: 15px;
