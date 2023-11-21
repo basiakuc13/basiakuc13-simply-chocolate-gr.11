@@ -24,20 +24,15 @@ color: #FD9222;
 }
 
 .his-wrapper {
-width: 1136px;
-height: 400px;
-align-items: flex-start;
-gap: 20px;
-flex-shrink: 0; 
-justify-content: space-between;
-}
 
-.his-photo {
-display: block;
 width: 600px;
 height: 400px;  
 border-radius: 15px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),  lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+background-image: url(../images/how-chocolate-is-made.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .him-list-wrapper {
