@@ -6,6 +6,11 @@
     margin: 0 32px 128px 32px;
     }
     
+@media screen and (min-width: 375px) {
+    .how-is-made-container{
+        max-width: 375px;
+    }}
+
     .how-is-made-header {
     color: black;
     font-family: Montserrat; 
@@ -34,7 +39,7 @@
     height: 400px;  
     border-radius: 15px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),  lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
-    background-image: url(../images/how-is-made/how-chocolate-is-made.jpg);
+    background-image: url(../images/how-is-made/how-chocolate-is-made-desktop.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
