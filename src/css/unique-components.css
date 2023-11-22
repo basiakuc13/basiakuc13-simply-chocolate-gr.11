@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-size: 14px;
   font-weight: 400;
@@ -110,10 +109,12 @@ body {
     background-color: var(--dark);
   }
 
-  .unique_components_pictures {
+  .unique_components_pictures_desktop {
+    display: none;
+  }
+
+  .unique_components_pictures_mobile {
     margin: 28px 56px;
-    width: 224px;
-    height: 171px;
   }
 
   .unique_components_li {
@@ -204,20 +205,20 @@ body {
   .unique_components_header {
     color: var(--black);
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.6px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
     text-transform: uppercase;
     margin-bottom: 20px;
   }
 
   .taste_word {
     color: var(--orange);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 24px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.72px;
     text-transform: uppercase;
   }
 
@@ -291,10 +292,12 @@ body {
     background-color: var(--dark);
   }
 
-  .unique_components_pictures {
+  .unique_components_pictures_desktop {
+    display: none;
+  }
+
+  .unique_components_pictures_mobile {
     margin: 28px 56px;
-    width: 224px;
-    height: 171px;
   }
 
   .unique_components_wrapper {
@@ -373,20 +376,20 @@ body {
   .unique_components_header {
     color: var(--black);
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.6px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
     text-transform: uppercase;
     margin-bottom: 20px;
   }
 
   .taste_word {
     color: var(--orange);
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: -0.6px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
     text-transform: uppercase;
   }
 
@@ -454,10 +457,12 @@ body {
     background-color: var(--dark);
   }
 
-  .unique_components_pictures {
-    margin: 28px 36px;
-    width: 206px;
-    height: 160px;
+  .unique_components_pictures_desktop {
+    display: none;
+  }
+
+  .unique_components_pictures_mobile {
+    margin: 28px 56px;
   }
 
   .unique_components_li {
