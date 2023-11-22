@@ -458,11 +458,12 @@ body {
   }
 
   .unique_components_pictures_desktop {
-    display: none;
+    margin: 28px 36px;
+
   }
 
   .unique_components_pictures_mobile {
-    margin: 28px 56px;
+    display: none;
   }
 
   .unique_components_li {
