@@ -395,7 +395,6 @@ body {
 
   .unique_components_textup {
     width: 280px;
-  height: 140px; 
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 18px;
