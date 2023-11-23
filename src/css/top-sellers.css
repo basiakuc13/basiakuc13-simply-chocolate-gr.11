@@ -82,7 +82,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 20px;
-    height: 574px;
   }
   .top-sellers-card-mint {
     border-radius: 15px;
@@ -90,7 +89,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 20px;
-    height: 574px;
   }
   .top-sellers-paragraph {
     font-size: 14px;
@@ -100,6 +98,7 @@ body {
     letter-spacing: -0.28px;
     width: 306px;
     padding-right: 29px;
+    padding-top: 20px;
   }
   .top-sellers-button {
     display: block;
