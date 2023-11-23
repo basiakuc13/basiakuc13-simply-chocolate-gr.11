@@ -76,7 +76,6 @@
   display: flex;
   gap: 59px;
   color: #ffffff;
-  margin-left: 40px;
 }
 
 .footer-socials {
@@ -123,6 +122,7 @@
   flex-direction: column;
   gap: 18px;
   text-decoration: none;
+  list-style: none;
 }
 
 .footer-menu-link {
@@ -162,6 +162,9 @@
 }
 
 @media screen and (min-width: 375px) {
+  .footer {
+    width: 375px;
+  }
   .footer-wrap {
     gap: 113px;
   }
@@ -171,6 +174,7 @@
   .footer {
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 768px;
   }
 
   .container-footer {
@@ -209,6 +213,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    width: 1200px;
+  }
+
   .footer-first-subcontainer {
     margin-bottom: 86px;
   }
