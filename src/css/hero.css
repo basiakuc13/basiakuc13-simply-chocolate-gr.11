@@ -14,7 +14,7 @@
         color: #ffffff;
         width: 335px;
         height: 621px;
-        background-image: url(/src/images/hero/chocolate-covered-cocoa-powder-x2.jpg);
+        background-image: url(/src/images/hero/chocolate-covered-cocoa-powder-p-2x.jpg);
         border-radius: 30px;
         display: flex;
         flex-direction: column;
@@ -142,7 +142,7 @@
         color: #ffffff;
         width: 704px;
         height: 890px;
-        background-image: url(/src/images/hero/chocolate-covered-cocoa-powder-t-x2.jpg);
+        background-image: url(/src/images/hero/chocolate-covered-cocoa-powder-t-2x.jpg);
         border-radius: 30px;
         display: flex;
         flex-direction: column;
@@ -271,7 +271,7 @@
         color: #ffffff;
         width: 1136px;
         height: 600px;
-        background-image: url(/src/images/hero/chocolate-covered-cocoa-powder-d-x2.jpg);
+        background-image: url(/src/images/hero/chocolate-covered-cocoa-powder-d-2x.jpg);
         border-radius: 30px;
         display: flex;
         flex-direction: column;
