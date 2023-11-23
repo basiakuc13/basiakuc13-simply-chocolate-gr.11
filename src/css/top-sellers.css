@@ -28,6 +28,7 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
+    border-radius: 15px;
   }
   .top-sellers-card-dark-chocolate {
     display: none;
