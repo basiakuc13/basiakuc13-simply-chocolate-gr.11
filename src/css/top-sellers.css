@@ -39,6 +39,10 @@ body {
   .top-sellers-list-tablet {
     display: none;
   }
+  .top-sellers-list-deskop,
+  .top-sellers-button-deskop {
+    display: none;
+  }
   .top-sellers-container {
     display: flex;
     width: 335px;
@@ -124,10 +128,18 @@ body {
     padding: 0 32px;
     margin: 0 auto;
   }
-  .top-sellers-list {
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .top-sellers-list,
+  .top-sellers-button-deskop {
     display: none;
   }
-  .top-sellers-button {
+  .top-sellers-button,
+  .top-sellers-list-deskop {
     display: none;
   }
   .top-sellers-container {
@@ -215,6 +227,12 @@ body {
     min-width: 1200px;
     margin: 0 auto;
     padding: 0 32px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
   }
   .top-sellers-list-tablet {
     display: none;
