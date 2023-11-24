@@ -1,147 +1,158 @@
+/* Our Product Container */
 .our-product-container {
-    max-width: 335px;
-    height: 453px; 
-    background: #FAFAFA;
-    margin: 0 20px 72px 20px;
-    }
-
-@media screen and (min-width: 768px) {
-    .our-product-container{
-        max-width: 1136px;
-        height: 487px; 
-        margin: 0 0 100px 33px;
-        }}
-@media screen and (min-width: 1200px) {
-    .our-product-container{
-        margin: 0 32px 128px 32px;
-}}
-.our-products-header{
-color: #111;
-text-align: center;
-font-family: Montserrat;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 1.17;
-letter-spacing: -0.72px;
-text-transform: uppercase; 
-margin: 0 auto 32px auto;
+  max-width: 335px;
+  height: 453px;
+  background: #fafafa;
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .our-products-list-item {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
-    .our-products-header {
-        margin: 0 auto 50px auto;   
-    }
-    }
+  .our-product-container {
+    max-width: 1136px;
+    height: 487px;
+    margin: auto;
+    padding-bottom: 100px;
+  }
 
-.our-products-span {
-    color: var(--orange);
-    }
-    @media screen and (min-width: 768px) {
-    .our-products-header {
-    margin: 0 auto 50px auto;  
-    }}
+  .our-products-header {
+    margin: 0 auto 50px auto;
+  }
 
-    .our-products-list {
-        list-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        gap: 18px;
-        margin-bottom: 20px;
-        padding-left: 0;
-    }
-    @media screen and (min-width: 768px) {
-        .our-products-list {
-            margin-bottom: 32px;
-            overflow: hidden;
-        }}
+  .our-products-list {
+    margin-bottom: 32px;
+    overflow: hidden;
+  }
 
-    .our-products-list-item {
-        visibility: hidden;
-    }
-    .our-products-list-item:first-child {
-        visibility: visible;
-    }
+  .our-products-list-item {
+    visibility: visible;
+  }
 
-    @media screen and (min-width: 768px) {
-        .our-products-list-item {
-        visibility: visible;
-        }
-    }
-
-
-    .our-products-point-wrapper {
-    width: 335px;
-    height: 364px;
-    border-radius: 15px;
-    border: 1px solid rgba(17, 17, 17, 0.10);
-    background: #FFF; 
-    flex-shrink: 0;
-    }
-
-    @media screen and (min-width: 768px) {
-    .our-products-point-wrapper{
+  .our-products-point-wrapper {
     width: 270px;
-    }} 
-    
-    .our-products-img {
-        display: block;
-        margin: 32px auto 8px auto;
-        max-width: 100%;
-        height: auto;
-    }
+  }
+}
 
-    .our-products-flavour {
-    color: #111;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.33;
-    letter-spacing: -0.36px;
-    text-transform: uppercase; 
-    text-align: center;
-    margin: 0 auto 2px 0;
-    }
+@media screen and (min-width: 1200px) {
+  .our-product-container {
+    margin: auto;
+  }
+}
 
-    .our-products-text {
-    color: rgba(17, 17, 17, 0.70);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.17;
-    letter-spacing: -0.24px; 
-    text-align: center;
-    margin: 0 auto 18px 0;
-    }
+/* Our Products Header */
+.our-products-header {
+  color: #111;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  margin: 0 auto 32px auto;
+}
 
-    .our-products-button {
-        border-radius: 100px;
-        border: 1px solid rgba(17, 17, 17, 0.10);
-        background: #FAFAFA; 
-        padding: 8px 20px; 
-        color: #111;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal; 
-        margin: 0 auto 32px auto;
-        display: block;
-        }
+/* Our Products List */
+.our-products-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  margin-bottom: 20px;
+  padding-left: 0;
+}
 
-    .our-products-icon-list {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        gap: 13px;
-        margin-bottom: 128px;
-        list-style: none;
-        padding-left: 0;
-    }
+@media screen and (min-width: 768px) {
+  .our-products-list {
+    margin-bottom: 32px;
+    overflow: hidden;
+  }
 
-    .our-product-1st-icon {
-        display: block;
-        fill: #FD9222; 
-    }
+  .our-products-list-item {
+    visibility: visible;
+  }
+}
 
-    .our-product-icon {
-        display: block;
-        fill: rgba(17, 17, 17, 0.10); 
-    }
+/* Our Products Point Wrapper */
+.our-products-point-wrapper {
+  width: 335px;
+  height: 364px;
+  border-radius: 15px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .our-products-point-wrapper {
+    width: 270px;
+  }
+}
+
+/* Other Styles... */
+.our-products-img {
+  display: block;
+  margin: 32px auto 8px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.our-products-flavour {
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto 2px 0;
+}
+
+.our-products-text {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.24px;
+  text-align: center;
+  margin: 0 auto 18px 0;
+}
+
+.our-products-button {
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
+  padding: 8px 20px;
+  color: #111;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 auto 32px auto;
+  display: block;
+}
+
+.our-products-icon-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 13px;
+  margin-bottom: 128px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.our-product-1st-icon {
+  display: block;
+  fill: #fd9222;
+}
+
+.our-product-icon {
+  display: block;
+  fill: rgba(17, 17, 17, 0.1);
+}

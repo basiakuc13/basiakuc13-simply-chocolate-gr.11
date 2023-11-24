@@ -1,191 +1,193 @@
-<div data-modal-id="modal-buy-now" class="modal modal-buy-now">
-  <button data-modal-close class="modal-buy-now-close">
-    <svg width="24" height="24">
-      <use href="./images/symbol-defs.svg#icon-x-close"></use>
-    </svg>
-  </button>
-  <h2 class="modal-buy-now-title">BUY<span class="modal-buy-now-title-span"> NOW</span></h2>
-  <ul class="modal-buy-now-list">
-    <li class="modal-buy-now-item">
-      <picture>
-        <source
-          srcset="
-            ./images/buy-now/kisspng-chocolate-mobilex1.jpg 1x,
-            ./images/buy-now/kisspng-chocolate-mobilex2.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <source
-          srcset="
-            ./images/buy-now/kisspng-chocolate-descopx1.jpg 1x,
-            ./images/buy-now/kisspng-chocolate-descopx2.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <img src="./images/buy-now/kisspng-chocolate-descopx1.jpg" alt="chocolate" />
-      </picture>
-      <p class="modal-buy-now-g">100 g</p>
-    </li>
-    <li class="modal-buy-now-item">
-      <picture>
-        <source
-          srcset="
-            ./images/buy-now/kisspng-chocolate2x1-mobile.jpg 1x,
-            ./images/buy-now/kisspng-chocolate2x2-mobile.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <source
-          srcset="
-            ./images/buy-now/kisspng-chocolate2x1-descop.jpg 1x,
-            ./images/buy-now/kisspng-chocolate2x2-descop.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <img src="./images/buy-now/kisspng-chocolate2x1-mobile.jpg" alt="chocolate" />
-      </picture>
-      <p class="modal-buy-now-g">200 g</p>
-    </li>
-    <li class="modal-buy-now-item">
-      <picture>
-        <source
-          srcset="
-            ./images/buy-now/chocolate-x1-mobile.jpg 1x,
-            ./images/buy-now/chocolate-x2-mobile.jpg 2x
-          "
-          media="(max-width: 767px)"
-        />
-        <source
-          srcset="
-            ./images/buy-now/chocolate-x1-descop.jpg 1x,
-            ./images/buy-now/chocolate-x2-descop.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <img src="./images/buy-now/chocolate-x1-mobile.jpg" alt="chocolate" />
-      </picture>
-      <p class="modal-buy-now-g">300 g</p>
-    </li>
-  </ul>
-  <form action="/src/js/validate.js">
-    <div class="modal-buy-now-input-form-wrap">
-      <div class="personal-info">
-        <div class="modal-buy-now-form-label">
-          <p>Personal information</p>
+<div data-modal class="backdrop is-hidden">
+  <div data-modal-id="modal-buy-now" class="modal modal-buy-now">
+    <button data-modal-close class="modal-buy-now-close">
+      <svg width="24" height="24">
+        <use href="./images/symbol-defs.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <h2 class="modal-buy-now-title">BUY<span class="modal-buy-now-title-span"> NOW</span></h2>
+    <ul class="modal-buy-now-list">
+      <li class="modal-buy-now-item">
+        <picture>
+          <source
+            srcset="
+              ./images/buy-now/kisspng-chocolate-mobilex1.jpg 1x,
+              ./images/buy-now/kisspng-chocolate-mobilex2.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./images/buy-now/kisspng-chocolate-descopx1.jpg 1x,
+              ./images/buy-now/kisspng-chocolate-descopx2.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img src="./images/buy-now/kisspng-chocolate-descopx1.jpg" alt="chocolate" />
+        </picture>
+        <p class="modal-buy-now-g">100 g</p>
+      </li>
+      <li class="modal-buy-now-item">
+        <picture>
+          <source
+            srcset="
+              ./images/buy-now/kisspng-chocolate2x1-mobile.jpg 1x,
+              ./images/buy-now/kisspng-chocolate2x2-mobile.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./images/buy-now/kisspng-chocolate2x1-descop.jpg 1x,
+              ./images/buy-now/kisspng-chocolate2x2-descop.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img src="./images/buy-now/kisspng-chocolate2x1-mobile.jpg" alt="chocolate" />
+        </picture>
+        <p class="modal-buy-now-g">200 g</p>
+      </li>
+      <li class="modal-buy-now-item">
+        <picture>
+          <source
+            srcset="
+              ./images/buy-now/chocolate-x1-mobile.jpg 1x,
+              ./images/buy-now/chocolate-x2-mobile.jpg 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <source
+            srcset="
+              ./images/buy-now/chocolate-x1-descop.jpg 1x,
+              ./images/buy-now/chocolate-x2-descop.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <img src="./images/buy-now/chocolate-x1-mobile.jpg" alt="chocolate" />
+        </picture>
+        <p class="modal-buy-now-g">300 g</p>
+      </li>
+    </ul>
+    <form action="/src/js/validate.js">
+      <div class="modal-buy-now-input-form-wrap">
+        <div class="personal-info">
+          <div class="modal-buy-now-form-label">
+            <p>Personal information</p>
 
-          <div class="modal-buy-now-input-name-wrap">
-            <input
-              class="personal-info"
-              type="text"
-              name="name"
-              pattern="[A-Za-z]{3,16}+\s"
-              placeholder="Name"
-              aria-label="name"
-              autofocus
-              required="required"
-              maxlength="16"
-              minlength="3"
-              title="At least 3 characters"
-            />
-            <span class="form__error">at least 3 characters</span>
+            <div class="modal-buy-now-input-name-wrap">
+              <input
+                class="personal-info"
+                type="text"
+                name="name"
+                pattern="[A-Za-z]{3,16}+\s"
+                placeholder="Name"
+                aria-label="name"
+                autofocus
+                required="required"
+                maxlength="16"
+                minlength="3"
+                title="At least 3 characters"
+              />
+              <span class="form__error">at least 3 characters</span>
 
-            <input
-              class="personal-info"
-              type="text"
-              name="name"
-              pattern="[A-Za-z]{3,16}+\s"
-              placeholder="Surname"
-              aria-label="name"
-              autofocus
-              required="required"
-              maxlength="16"
-              minlength="3"
-              title="At least 3 characters"
-            />
-            <span class="form__error">at least 3 characters</span>
+              <input
+                class="personal-info"
+                type="text"
+                name="name"
+                pattern="[A-Za-z]{3,16}+\s"
+                placeholder="Surname"
+                aria-label="name"
+                autofocus
+                required="required"
+                maxlength="16"
+                minlength="3"
+                title="At least 3 characters"
+              />
+              <span class="form__error">at least 3 characters</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="modal-buy-now-form-label">
-        <p>Email</p>
-        <div class="modal-buy-now-input-mail-wrap">
-          <input
-            type="email"
-            name="email"
-            pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-            placeholder="Enter your email"
-            aria-label="Email"
-            minlength="3"
-            maxlength="30"
-            title="please enter your email in correct format"
-            required="required"
-          />
-          <span class="form__error"
-            >This field must contain E-Mail in the format example@site.com</span
-          >
+        <div class="modal-buy-now-form-label">
+          <p>Email</p>
+          <div class="modal-buy-now-input-mail-wrap">
+            <input
+              type="email"
+              name="email"
+              pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              placeholder="Enter your email"
+              aria-label="Email"
+              minlength="3"
+              maxlength="30"
+              title="please enter your email in correct format"
+              required="required"
+            />
+            <span class="form__error"
+              >This field must contain E-Mail in the format example@site.com</span
+            >
+          </div>
         </div>
-      </div>
-      <div class="modal-buy-now-form-label">
-        <p>Phone number</p>
-        <div class="modal-buy-now-input-wrap">
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Phone number"
-            minlength="9"
-            maxlength="9"
-            pattern="[0-9]{,9}"
-            aria-label="Phone number"
-            title="Phone number must contain 9 digits"
-            required="required"
-          />
-          <span class="form__error">
-            This field must contain a phone number in international format without +380</span
-          >
+        <div class="modal-buy-now-form-label">
+          <p>Phone number</p>
+          <div class="modal-buy-now-input-wrap">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone number"
+              minlength="9"
+              maxlength="9"
+              pattern="[0-9]{,9}"
+              aria-label="Phone number"
+              title="Phone number must contain 9 digits"
+              required="required"
+            />
+            <span class="form__error">
+              This field must contain a phone number in international format without +380</span
+            >
 
-          <svg class="svg-ua" width="24" height="24">
-            <use href="./images/symbol-defs.svg#icon-Frame"></use>
-          </svg>
-          <span class="ua-code">+380</span>
+            <svg class="svg-ua" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-Frame"></use>
+            </svg>
+            <span class="ua-code">+380</span>
+          </div>
         </div>
-      </div>
-      <div class="modal-buy-now-form-label">
-        <p>Card number</p>
-        <div class="modal-buy-now-input-wrap">
-          <input
-            class="myValidate"
-            type="text"
-            name="card"
-            placeholder="Enter card"
-            required
-            pattern="[0-9]{16}"
-            minlength="16"
-            maxlength="16"
-            title="Please, enter your card number"
-            aria-label="card number"
-          />
+        <div class="modal-buy-now-form-label">
+          <p>Card number</p>
+          <div class="modal-buy-now-input-wrap">
+            <input
+              class="myValidate"
+              type="text"
+              name="card"
+              placeholder="Enter card"
+              required
+              pattern="[0-9]{16}"
+              minlength="16"
+              maxlength="16"
+              title="Please, enter your card number"
+              aria-label="card number"
+            />
 
-          <span class="form__error"> This field must contain a 16-digit card number</span>
-          <svg class="svg-mastercard" width="32" height="21">
-            <use href="./images/symbol-defs.svg#icon-Mastercard"></use>
-          </svg>
+            <span class="form__error"> This field must contain a 16-digit card number</span>
+            <svg class="svg-mastercard" width="32" height="21">
+              <use href="./images/symbol-defs.svg#icon-Mastercard"></use>
+            </svg>
+          </div>
         </div>
-      </div>
-      <div class="modal-buy-now-form-label">
-        <p>Comment</p>
-        <div class="modal-buy-now-input-wrap">
-          <textarea name="comment" placeholder="Enter text"></textarea>
+        <div class="modal-buy-now-form-label">
+          <p>Comment</p>
+          <div class="modal-buy-now-input-wrap">
+            <textarea name="comment" placeholder="Enter text"></textarea>
+          </div>
         </div>
-      </div>
 
-      <button
-        data-modal="modal-buy-now"
-        class="modal-close modal-buy-now-form-submit"
-        type="submit"
-      >
-        Submit
-      </button>
-    </div>
-  </form>
+        <button
+          data-modal="modal-buy-now"
+          class="modal-close modal-buy-now-form-submit"
+          type="submit"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
 </div>

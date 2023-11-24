@@ -1,149 +1,151 @@
 body {
-    min-width: 375px;
-    max-width: 1200px;
-    font-family: "Montserrat";
-    background: #FAFAFA; 
-    margin: 0 auto;
+  min-width: 375px;
+  max-width: 1200px;
+  font-family: 'Montserrat';
+  background: #fafafa;
+  margin: 0 auto;
 }
 
 .how-is-made-container {
-    max-width: 335px;
-    height: 976px; 
-    background: #FAFAFA;
-    margin: 0 20px 72px 20px;
-    }
-    
+  max-width: 335px;
+  background: #fafafa;
+  margin: auto;
+}
+
 @media screen and (min-width: 768px) {
-    .how-is-made-container{
+  .how-is-made-container {
     max-width: 614px;
-    height: 776px; 
-    margin: 0 77px 100px 77px;
-    }}
+    margin: auto;
+  }
+}
 @media screen and (min-width: 1200px) {
-    .how-is-made-container{
+  .how-is-made-container {
     max-width: 1136px;
-    height: 478px;
-    margin: 0 32px 128px 32px;
-}}
-    .how-is-made-header {
-    color: black;
-    font-family: Montserrat; 
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.17;
-    letter-spacing: -0.72px;
-    text-transform: uppercase; 
-    margin: 0 auto 32px auto;
-    }
-    .him-span {
-    color: var(--orange);
-    }
-    @media screen and (min-width: 768px) {
-    .how-is-made-header {
-    margin: 0 auto 50px auto;  
-    }}
+    margin: auto;
+  }
+}
+.how-is-made-header {
+  color: black;
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  margin: 0 auto 32px auto;
+}
+.him-span {
+  color: var(--orange);
+}
 
-    .how-is-made-flex-wrapper {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    } 
-    @media screen and (min-width: 1200px) {
-    .how-is-made-flex-wrapper {
-        flex-direction: row;
-    }}
+.how-is-made-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .how-is-made-flex-wrapper {
+    flex-direction: row;
+  }
+}
 
-    .how-is-made-pct-box {
-    width: 335px;
-    height: 500px;  
-    border-radius: 15px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.40) 100%),  lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
-    background-image: url(../images/how-is-made/how-chocolate-is-made-mobile.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-    @media screen and (min-width: 768px) {
-    .how-is-made-pct-box {
+.how-is-made-pct-box {
+  width: 335px;
+  height: 500px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%),
+    lightgray -10.819px -343.839px / 103.473% 236.295% no-repeat;
+  background-image: url(../images/how-is-made/how-chocolate-is-made-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .how-is-made-pct-box {
     width: 614px;
-    height: 400px;  
+    height: 400px;
     background-image: url(../images/how-is-made/how-chocolate-is-made-tablet.jpg);
-    }}
-    @media screen and (min-width: 1200px) {
-    .how-is-made-pct-box {
+  }
+}
+@media screen and (min-width: 1200px) {
+  .how-is-made-pct-box {
     width: 600px;
     height: 400px;
     background-image: url(../images/how-is-made/how-chocolate-is-made-desktop.jpg);
-    }}
-    
-    .how-is-made-list-wrapper {
-    padding: 20px 14px;
-    width: 335px;
-    height: 456px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    flex-shrink: 0; 
-    border-radius: 15px;
-    background: #FFF; 
-    gap: 20px;
-    }
-    @media screen and (min-width: 768px) {
-    .how-is-made-list-wrapper{
-        align-items: flex-start; 
-        width: 614px;
-        height: 356px;
-        padding: 32px; 
-        gap: 28px; 
-    }}
-    @media screen and (min-width: 1200px) {
-    .how-is-made-list-wrapper{
-        width: 516px;
-        height: 400px; 
-    }}
-    .how-is-made-list-wrapper > h2 {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.33;
-    margin: 0;
-    }
-    
-    .him-list-points {
-    list-style: none;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.29; 
-    letter-spacing: -0.28px; 
-    display: flex;
-    gap: 18px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:flex-start;
-    margin: 0;
-    padding-left: 0;
-    }
-    @media screen and (min-width: 1200px) {
-    .him-list-points {
-    gap: 24px;   
-    }}
+  }
+}
 
-    .him-li {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 8px;;
-    }
+.how-is-made-list-wrapper {
+  padding: 20px 14px;
+  width: 335px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .how-is-made-list-wrapper {
+    align-items: flex-start;
+    width: 614px;
+    height: 356px;
+    padding: 32px;
+    gap: 28px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .how-is-made-list-wrapper {
+    width: 516px;
+    height: 400px;
+  }
+}
+.how-is-made-list-wrapper > h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.33;
+  margin: 0;
+}
 
-    .him-svg {
-    fill: #4C4C4C;
-    stroke-width: 1px;
-    stroke: #ECEDED; 
-    display: inline-block;
-    }
-    .him-text {
-        margin: 0;
-    }
+.him-list-points {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  padding-left: 0;
+}
+@media screen and (min-width: 1200px) {
+  .him-list-points {
+    gap: 24px;
+  }
+}
+
+.him-li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.him-svg {
+  fill: #4c4c4c;
+  stroke-width: 1px;
+  stroke: #eceded;
+  display: inline-block;
+}
+.him-text {
+  margin: 0;
+}
