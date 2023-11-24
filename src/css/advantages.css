@@ -85,7 +85,7 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section_advantages {
     display: flex;
-    height: 620px;
+    width: 768px;
     padding: 50px 32px;
     gap: 32px;
     flex-direction: column;
