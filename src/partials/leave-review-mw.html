@@ -1,0 +1,37 @@
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal_window">
+          <button type="button" data-modal-close>
+            <svg class="button_close" width="24" height="24">
+              <use href="images/symbol-defs.svg#icon-x-close"></use>
+            </svg>
+          </button>
+      <h2 class="modal_title">
+        LEAVE A REVIEW ABOUT <br> <span class="modal_title_orange">OUR CHOCOLATE</span>
+      </h2>
+      <form>
+        <label class="label_signup_form" for="user-name">
+          <input class="input_signup_form" type="name" name="name" id="user-name" placeholder="Name" required 
+          pattern="\w{3,16}"/>
+        </label>
+        <label class="label_signup_form" for="user-email">
+          <input class="input_signup_form" type="email" name="email" id="user-email" placeholder="E-mail" required 
+          pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"/>
+        </label>
+          <label class="label_signup_form_phone" for="user-phone">
+            <div class="phone_number_with_flag">
+                <div class="phone_number_prefix_wrapper">
+                    <svg width="32" height="24" class="field_icon">
+                      <use href="images/symbol-defs.svg#icon-Frame"></use>
+                    </svg>
+                    <p>+380</p>
+                </div>
+            <input class="input_signup_form input_signup_form_phone" type="text" name="user-phone" id="user-phone" placeholder="Phone" 
+            pattern="[0-9]{3}" required />
+          </div></label>
+          <div class="textarea">
+        <textarea class="comment_field" name="user-comment" id="user-comment" placeholder="Text input" style="resize:none"></textarea>
+        <button type="submit" class="button_send_modal">Send</button></div>
+      </form>
+    </div>
+  </div>
+

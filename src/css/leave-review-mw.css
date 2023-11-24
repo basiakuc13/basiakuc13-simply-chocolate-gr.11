@@ -1,0 +1,168 @@
+ .backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .modal_window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 517px;
+    min-height: 628px; 
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px;
+  }
+
+  .button_close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal_title {
+    width: 298px;
+    color: #111;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+.modal_title_orange {
+  color: #FD9222;
+}
+
+.label_signup_form {
+    display: block;
+    color: var(--LIGHT-SLATE, #8e8f99);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    margin-bottom: 18px;
+  }
+
+  .input_signup_form {
+    width: 100%;
+    height: 66px;
+    border-radius: 12px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    background-color: transparent;
+    padding:24px 22px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.input_signup_form:hover,
+.input_signup_form:focus {
+    border-color: #FD9222;
+  }
+
+  .label_signup_form_phone {
+    display: flex;
+    color: var(--LIGHT-SLATE, #8e8f99);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+    margin-bottom: 18px;
+  }
+
+.phone_number_with_flag{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-right: 0px;
+    align-items: center;
+  }
+
+.phone_number_prefix_wrapper {
+      display: flex;
+      position: relative;
+      gap: 10px;
+      align-items: center;
+      border: 1.5px solid rgba(17, 17, 17, 0.05);
+      padding: 20px 22px;
+      border-radius: 12px;
+      border-right: none;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+  }  
+
+.phone_number_prefix_wrapper:after {
+      content: '';
+      background-color: rgba(17, 17, 17, 0.05);
+      width: 3px;
+      height: 31px;
+      position: absolute;
+      right: -3px;
+  }
+
+.field_icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+.input_signup_form_phone {
+      border-left: 1.5px solid transparent;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+
+  .textarea {
+    position: relative;
+  }
+  
+  .comment_field {
+    width: 100%;
+    height: 137px;
+    border-radius: 13px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    background-color: transparent;
+    padding: 22px 24px 93px 24px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 18px;
+  }
+
+  .comment_field:hover,
+  .comment_field:focus {
+    border-color: #FD9222;
+  }
+
+  .button_send_modal {
+    display: block;
+    min-width: 117px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    background: #FD9222;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
