@@ -1,0 +1,284 @@
+:root {
+  --brand-color-slate: #434455;
+  --brand-color-white: #ffffff;
+  --brand-color-iris: #4d5ae5;
+  --brand-color-navyblue: #2e2f42;
+  --brand-color-ocean: #404bbf;
+  --brand-color-customers: #8e8f99;
+  --brand-color-CLOUD: #f4f4fd;
+  --brand-color-CORNFLOWER: #e7e9fc;
+  --gap: 10px;
+  --brand-color-orange: #fd9222;
+}
+
+.modal-buy-now {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 311px;
+  border-radius: 15px;
+  padding: 32px 24px;
+  z-index: 40;
+  background-color: #ffffff;
+  max-height: 95vh;
+  overflow-y: scroll;
+}
+
+.modal-buy-now-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  stroke: black;
+  background-color: transparent;
+  border: none;
+}
+.modal-buy-now-close:hover {
+  stroke: #fd9222;
+}
+
+.modal-buy-now-title-span {
+  color: #111111;
+}
+
+.modal-buy-now-title {
+  margin-bottom: 32px;
+  color: #fd9222;
+  text-align: center;
+}
+
+.modal-buy-now-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  gap: 8px;
+}
+
+.modal-buy-now-item {
+  width: 263px;
+  height: 85px;
+  padding: 8px 16px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+.modal-buy-now-g {
+  padding: 8px 27px;
+
+  font-weight: 600;
+  background: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+.personal-info {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form__error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+  display: none;
+}
+
+.modal-buy-now-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #000000;
+}
+.modal-buy-now-input-form-wrap {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+.modal-buy-now-form-label p {
+  margin-bottom: 8px;
+}
+
+.modal-buy-now-input-name-wrap {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-buy-now-input-mail-wrap {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-buy-now-input-wrap {
+  width: 258px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.modal-buy-now-form-label input,
+textarea {
+  height: 45px;
+  width: 100%;
+  background-color: transparent;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000000;
+  padding: 14px 18px;
+}
+
+.modal-buy-now-form-label input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-buy-now-form-label input[type='tel'] {
+  padding-left: 106px;
+}
+
+.modal-buy-now-input-wrap {
+  position: relative;
+}
+
+.modal-buy-now-input-wrap svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.modal-buy-now-input-wrap .svg-ua {
+  left: 18px;
+}
+
+.ua-code {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #000000;
+  padding: 14px 18px;
+}
+
+.ua-code::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px;
+  display: inline-block;
+  width: 1.5px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.modal-buy-now-input-wrap .svg-mastercard {
+  right: 14px;
+}
+
+.modal-buy-now-form-label textarea {
+  height: 91px;
+  resize: none;
+}
+
+.modal-buy-now-form-submit {
+  border-radius: 100px;
+  padding: 12px 28px;
+  background-color: #fd9222;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.21;
+  margin-top: 18px;
+  text-align: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    backgroundcolor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border: 2px solid red;
+}
+
+input:valid:not(:placeholder-shown) {
+  border: 2px solid lightgreen;
+}
+
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-buy-now {
+    width: 609px;
+    padding: 48px;
+    max-height: 1058px;
+    overflow: hidden;
+  }
+  .modal-buy-now-close {
+    top: 24px;
+    right: 24px;
+  }
+
+  .modal-buy-now-list {
+    gap: 16px;
+    margin-bottom: 40px;
+    flex-direction: row;
+  }
+
+  .modal-buy-now-item {
+    width: 160px;
+    height: 196px;
+    padding: 24px 20px 18px 20px;
+    margin: none;
+    flex-direction: column;
+  }
+
+  .modal-buy-item img {
+    width: 120px;
+    height: 111px;
+  }
+
+  .personal-info {
+    flex-wrap: nowrap;
+  }
+
+  .modal-buy-now-input-name-wrap {
+    flex-direction: row;
+    gap: 21px;
+    width: 513px;
+  }
+  .modal-buy-now-input-wrap,
+  .modal-buy-now-input-mail-wrap {
+    width: 513px;
+  }
+
+  .modal-buy-now-form-submit {
+    padding: 14px 40px;
+  }
+}
