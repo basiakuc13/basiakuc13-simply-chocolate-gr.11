@@ -35,3 +35,89 @@ margin: 0 auto 32px auto;
     .our-products-header {
     margin: 0 auto 50px auto;  
     }}
+
+    .our-products-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        margin-bottom: 32px;
+        padding-left: 0;
+    }
+
+    .our-products-point-wrapper {
+    width: 335px;
+    height: 364px;
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background: #FFF; 
+    }
+
+    @media screen and (min-width: 768px) {
+    .our-products-point-wrapper{
+    width: 270px;
+    }} 
+    
+    .our-products-img {
+        display: block;
+        margin: 32px auto 8px auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .our-products-flavour {
+    color: #111;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+    text-transform: uppercase; 
+    text-align: center;
+    margin: 0 auto 2px 0;
+    }
+
+    .our-products-text {
+    color: rgba(17, 17, 17, 0.70);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17
+    letter-spacing: -0.24px; 
+    text-align: center;
+    margin: 0 auto 18px 0;
+    }
+
+    .our-products-button {
+        border-radius: 100px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FAFAFA; 
+        padding: 8px 20px; 
+        color: #111;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+        margin: 0 auto 32px auto;
+        display: block;
+        }
+
+    .our-products-icon-list {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        gap: 13px;
+        margin-bottom: 128px;
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .our-product-1st-icon {
+        width: 28px;
+        height: 13px; 
+        fill: #FD9222; 
+    }
+
+    .our-product-icon {
+        display: inline-block;
+        fill: rgba(17, 17, 17, 0.10); 
+    }
