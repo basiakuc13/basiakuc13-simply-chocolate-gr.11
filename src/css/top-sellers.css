@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background-color: #fafafa;
+}
+/*============================ MOBILE👇=============================== */
+/*Top Sellers*/
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .top-sellers-card-dark-chocolate {
+    display: none;
+  }
+  .top-sellers-button-tablet {
+    display: none;
+  }
+  .top-sellers-list-tablet {
+    display: none;
+  }
+  .top-sellers-list-deskop,
+  .top-sellers-button-deskop {
+    display: none;
+  }
+  .top-sellers-container {
+    display: flex;
+    width: 335px;
+    height: 1187px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+  }
+  .top-sellers-header {
+    color: #fd9222;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
+    padding-bottom: 32px;
+    margin-top: 72px;
+  }
+  .top-sellers-accent {
+    color: #111;
+  }
+  .top-sellers-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .top-sellers-card-chestnut {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+  }
+  .top-sellers-card-mint {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+  }
+  .top-sellers-paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 306px;
+    padding-right: 29px;
+    padding-top: 20px;
+  }
+  .top-sellers-button {
+    display: block;
+    width: 120px;
+    height: 41px;
+    padding: 12px 28px;
+    gap: 14px;
+    border-radius: 100px;
+    background-color: #fd9222;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 72px;
+  }
+}
+
+/*============================ TABLET👇=============================== */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .top-sellers-list,
+  .top-sellers-button-deskop {
+    display: none;
+  }
+  .top-sellers-button,
+  .top-sellers-list-deskop {
+    display: none;
+  }
+  .top-sellers-container {
+    display: flex;
+    width: 704px;
+    height: 664px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+  }
+  .top-sellers-header {
+    color: #fd9222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    margin-top: 72px;
+  }
+  .top-sellers-accent {
+    color: #111;
+  }
+  .top-sellers-list-tablet {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .top-sellers-card-chestnut {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 464px;
+  }
+  .top-sellers-card-mint {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 464px;
+  }
+  .top-sellers-card-dark-chocolate {
+    display: none;
+  }
+  .top-sellers-paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 306px;
+    margin-top: 32px;
+    position: absolute;
+  }
+  .top-sellers-button-tablet {
+    max-width: 162px;
+    display: flex;
+    padding: 14px 40px;
+    gap: 14px;
+    border-radius: 100px;
+    background-color: #fd9222;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin: 32px auto 0;
+    /* Co zrobic by przysick nie 'wedrowal' przy rozszerzeniu?*/
+    position: relative;
+    left: 276px;
+  }
+}
+/* ================================================= DESKTOP 👇 ========================================= */
+@media screen and (min-width: 1200px) {
+  .container {
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .top-sellers-list-tablet {
+    display: none;
+  }
+  .top-sellers-button-tablet {
+    display: none;
+  }
+  .top-sellers-list {
+    display: none;
+  }
+  .top-sellers-button {
+    display: none;
+  }
+  .top-sellers-container {
+    display: flex;
+    min-width: 1136px;
+    height: 646px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+  }
+  .top-sellers-header {
+    color: #fd9222;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.72px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    margin-top: 72px;
+  }
+  .top-sellers-accent {
+    color: #111;
+  }
+  .top-sellers-list-deskop {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .top-sellers-card-chestnut {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 464px;
+    width: 368px;
+  }
+  .top-sellers-card-mint {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 464px;
+    width: 368px;
+  }
+  .top-sellers-card-dark-chocolate {
+    border-radius: 15px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 464px;
+    width: 368px;
+  }
+  .top-sellers-paragraph {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 407px;
+    margin-top: 32px;
+    position: absolute;
+  }
+  .top-sellers-button-deskop {
+    max-width: 162px;
+    display: flex;
+    padding: 14px 40px;
+    gap: 14px;
+    border-radius: 100px;
+    background-color: #fd9222;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin: 32px auto 0;
+    position: relative; /* Co zrobic z przyciskiem by trzymal prawej w desk/tabl?*/
+    left: 497px;
+  }
+}
