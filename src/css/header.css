@@ -1,12 +1,11 @@
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< MOBILE >>>>>>>>>>>>>>>>>>>>>>>>>*/
-@media screen and (min-width: 375px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   /*<<<<<<<<<<<<<<<<<<<<<header>>>>>>>>>>>>>>>>>>>>*/
   .header {
     background-color: var(--white);
     padding: 20px 0;
-    width: 375;
+    width: 100%;
     height: 68px;
-    margin: auto;
   }
 
   .header-heading {
@@ -87,13 +86,15 @@
   }
   /*hamburger-menu*/
   .header-hamburger-menu {
-    position: absolute;
+    position: fixed;
     right: -100%;
     transition: 0.5s;
     background-color: transparent;
     width: 100%;
     height: 100%;
-    visibility: hidden;
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
     justify-content: flex-end;
     z-index: 5;
   }
@@ -107,6 +108,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
+    visibility: hidden;
   }
   .hamburger-close-button {
     width: 28px;
@@ -276,8 +279,6 @@
     height: 100%;
     display: flex;
     justify-content: flex-end;
-    position: absolute;
-    visibility: hidden;
   }
 
   .header-hamburger-menu {
@@ -293,6 +294,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
+    visibility: hidden;
   }
 
   .hamburger-close-button {
