@@ -18,10 +18,12 @@
     display: flex;
     justify-content: flex-end;
     z-index: 5;
+    visibility: hidden;
   }
 
   .header-hamburger-menu.active {
     right: 0;
+    visibility: visible;
   }
   .header-hamburger-menu-container {
     background-color: var(--dark);
@@ -234,6 +236,9 @@
 @media screen and (min-width: 1200px) {
   /*hamburger*/
   .header-icon-box {
+    display: none;
+  }
+  .header-hamburger-menu {
     display: none;
   }
 }

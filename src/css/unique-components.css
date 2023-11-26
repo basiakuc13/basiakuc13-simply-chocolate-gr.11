@@ -16,10 +16,10 @@ body {
   .section_unique_components {
     display: flex;
     width: 335px;
-    height: 1376px;
     flex-direction: column;
     align-items: flex-start;
     padding-top: 72px;
+    padding-bottom: 72px;
     max-width: 480px;
     margin: 0 auto;
   }
