@@ -77,6 +77,11 @@ img {
     margin: 32px auto 72px;
     background-color: transparent;
   }
+  .reviews-button:hover,
+  .reviews-button:focus {
+    background-color: #fd9222;
+    color: #fff;
+  }
   .reviews-container {
     display: flex;
     width: 335px;
@@ -195,6 +200,11 @@ img {
     line-height: normal;
     margin: 50px auto 100px;
     background-color: transparent;
+  }
+  .reviews-button:hover,
+  .reviews-button:focus {
+    background-color: #fd9222;
+    color: #fff;
   }
   .reviews-box {
     display: flex;
@@ -372,6 +382,11 @@ img {
     line-height: normal;
     margin: 50px auto 128px;
     background-color: transparent;
+  }
+  .reviews-button:hover,
+  .reviews-button:focus {
+    background-color: #fd9222;
+    color: #fff;
   }
   .reviews-container {
     display: flex;
